@@ -1,0 +1,72 @@
+.hero_section {
+    position: relative;
+    margin-top: 3rem;
+   z-index: -367;
+   
+}
+.hero_box {
+    max-width: 1200px;
+    padding: 3rem;
+    margin: auto;
+    display: flex-wrap;
+    justify-content: center;
+    
+    border-radius: 50px;
+    height: auto;
+}
+.hero_header-1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.hero_box span {
+    color: #1eb2a6;
+}
+.hero_hero_hero {
+    text-align: center;
+    max-width: 1000px;
+    width: 60%;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 1rem;
+}
+.hero_box_paragraph {
+    font-size: 1rem;
+    text-align: center;
+}
+.hero_box_button {
+    max-width: 1000px;
+    width: 85%;
+    margin: auto;
+}
+.hero_box_container_buuton{
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  justify-content: center;
+}
+.button-1 {
+    max-width: 300px;
+    width: 100%;
+    padding: 1.20rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: #1eb2a6;
+    border: 1px solid #1eb2a6 ;
+   border-radius: 40px;
+}
+.button-2 {
+    max-width: 300px;
+    width: 100%;
+    padding: 1.20rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #1eb2a6 ;
+   border-radius: 40px;
+   color: white;
+}
+.button-2 a {
+    color: white;
+}
