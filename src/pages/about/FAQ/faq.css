@@ -1,12 +1,12 @@
 .faq_section {
   position: relative;
   max-width: 1000px;
-  margin: 4rem auto;
+  margin: 8rem auto;
   padding: 0;
   color: #4d5974;
   background-color: var(--body-color);
   display: flex;
-  height: 100vh;
+  height: fit-content;
   align-items: center;
   border-radius: 40px;
 }
@@ -163,7 +163,5 @@
   }
 }
 @media (max-width: 380px){
-  .faq_section {
-    margin-top: 30rem;
-  }
+  
 }

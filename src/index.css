@@ -1,3 +1,4 @@
+
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Lexend:wght@100&family=Montserrat:wght@500&family=Poppins:wght@500&family=Roboto:wght@100&family=Source+Code+Pro:wght@400;600;700&family=Ultra&display=swap');
 
@@ -107,41 +108,15 @@ li {
 
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.hero_button {
-  background: none;
-  color: #fff;
-  max-width: 200px;
-  width: 100%;
-  padding: 1rem 0 1rem 0rem;
-  border-radius: 30px;
-  border: 2px solid #1eb2a6;
-  font-family: "Poppins", sans-serif;
-}
-.button {
-  gap: 2rem;
-  display: flex;
-  margin-top: 1rem;
-  max-width: 1000px;
-  width: 100%;
-}
+
 .row {
   width: 50%;
 }
 
-.primary-btn {
-  background-color: #1eb2a6;
-  color: #fff;
-  max-width: 200px;
-  width: 100%;
-  padding: 1rem 0 1rem 0rem;
-  border-radius: 30px;
-  border: #1eb2a6;
-  font-family: "Poppins", sans-serif;
-}
  .main-container.has-background {
   background-image: url("/images/bg.webp");
   opacity: 80%;
-  height: 100vh;
+  height: 100lvh;
   max-height: 100%;
   width: 100% !important;
  }
@@ -187,13 +162,13 @@ p {
   line-height: 30px;
   font-size: 18px;
 }
-.margin {
-  margin-top: 40.3%;
-}
+
 
 /* For large devices */
 @media screen and (max-width: 1230px) {
-
+  .main-container.has-background {
+    height: 65vh;
+  }
   .row {
     width: 80%;
   }
@@ -201,10 +176,8 @@ p {
 
 @media screen and (max-width: 992px) {
 
-  .button {
-   display: grid;
-   justify-content: center;
-  margin: auto;  
+  .main-container.has-background {
+    height: 70vh;
   }
 }
 
@@ -213,19 +186,33 @@ p {
   body {
     margin: 0 0 var(--header-height) 0;
   }
+  .main-container.has-background {
+    height: 80vh;
+  }
 
 }
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 440px) {
  
-  .main-container {
-    height: 200vh;
- }
-  
+  .main-container.has-background {
+    height: 110vh;
+   
+  }
+
+}
+@media screen and (max-width: 420px) {
+ 
+  .main-container.has-background {
+    height: 130vh;
+   
+  }
+
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
+  .main-container.has-background {
+    height: 180vh;
+  }
   :root {
     --big-font-size: 2.25rem;
   }

@@ -1,16 +1,15 @@
 
 /*=============== CARD ===============*/
 .team_section {
-    
+    position: relative;
+    height: auto;
     margin-inline: 1.5rem;
     display: grid;
     place-items: center;
-    margin-top: 15rem;
+    margin-top: 30rem;
 }
 .team_container {
     margin-top: 4rem !important;
-    width: 80%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -33,7 +32,7 @@
   }
   .card {
     position: relative;
-    width: 306px;
+    width: auto;
     height: auto !important;
     background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
     padding: 3.25rem 2rem 3rem;
@@ -173,13 +172,25 @@
 
     /*=============== BREAKPOINTS ===============*/
   /* For large devices */
+ 
+@media screen and (max-width: 1230px) {
+ 
+}
   @media screen and (max-width: 992px) {
-    
+    .card {
+      width: 300px;
+    }
   }
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
-    
+    .team_container {
+      gap: 2rem;
+    }
+    .card {
+      flex-basis: 40%;
+      
+    }
   }
   @media screen and (max-width: 576px) {
     .team_container {
@@ -195,10 +206,7 @@
         width: 90%;
         
       }
-    .team_section {
-        margin-top: 60rem;
-        height: 150vh;
-    }
+   
   }
   
   /* For small devices */

@@ -17,15 +17,15 @@ const first_blog = () => {
                </div>
                <div className="icon_box">
                <div className='blog_icon'>
-               <i class="ri-calendar-fill"></i>
+               <i className="ri-calendar-fill"></i>
                <p>3 / 20 / 21</p>
                </div>
                <div className='blog_icon'>
-               <i class="ri-chat-1-fill"></i>
+               <i className="ri-chat-1-fill"></i>
                <p>2 min read</p>
                </div>
                <div className='blog_icon'>
-               <i class="ri-home-fill"></i>
+               <i className="ri-home-fill"></i>
                <p>2 </p>
                </div>
                </div>
@@ -33,21 +33,21 @@ const first_blog = () => {
                <h2>MIT Supplemental Essay</h2>
                <span>Your key to writing an impressivve essay</span>
                </div>
-               <button class="btn-1">
+               <button className="btn-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="arr-2"
+              className="arr-2"
               viewBox="0 0 24 24"
             >
               <path
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
               ></path>
             </svg>
-            <span class="text">Explore</span>
-            <span class="circle"></span>
+            <span className="text">Explore</span>
+            <span className="circle"></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="arr-1"
+              className="arr-1"
               viewBox="0 0 24 24"
             >
               <path
@@ -63,15 +63,15 @@ const first_blog = () => {
                </div>
                <div className="icon_box">
                <div className='blog_icon'>
-               <i class="ri-calendar-fill"></i>
+               <i className="ri-calendar-fill"></i>
                <p>3 / 20 / 21</p>
                </div>
                <div className='blog_icon'>
-               <i class="ri-chat-1-fill"></i>
+               <i className="ri-chat-1-fill"></i>
                <p>2 min read</p>
                </div>
                <div className='blog_icon'>
-               <i class="ri-home-fill"></i>
+               <i className="ri-home-fill"></i>
                <p>2 </p>
                </div>
                </div>
@@ -79,21 +79,21 @@ const first_blog = () => {
                <h2>Application Portals</h2>
                <span>The different application portals that can be </span>
                </div>
-               <button class="btn-1">
+               <button className="btn-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="arr-2"
+              className="arr-2"
               viewBox="0 0 24 24"
             >
               <path
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
               ></path>
             </svg>
-            <span class="text">Explore</span>
-            <span class="circle"></span>
+            <span className="text">Explore</span>
+            <span className="circle"></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="arr-1"
+              className="arr-1"
               viewBox="0 0 24 24"
             >
               <path
@@ -109,15 +109,15 @@ const first_blog = () => {
                </div>
                <div className="icon_box">
                <div className='blog_icon'>
-               <i class="ri-calendar-fill"></i>
+               <i className="ri-calendar-fill"></i>
                <p>3 / 20 / 21</p>
                </div>
                <div className='blog_icon'>
-               <i class="ri-chat-1-fill"></i>
+               <i className="ri-chat-1-fill"></i>
                <p>2 min read</p>
                </div>
                <div className='blog_icon'>
-               <i class="ri-home-fill"></i>
+               <i className="ri-home-fill"></i>
                <p>2 </p>
                </div>
                </div>
@@ -125,21 +125,21 @@ const first_blog = () => {
                <h2>MIT Supplemental Essay</h2>
                <span>Your key to writing an impressivve essay</span>
                </div>
-               <button class="btn-1">
+               <button className="btn-1">
               <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="arr-2"
+              className="arr-2"
               viewBox="0 0 24 24"
               >
               <path
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
               ></path>
             </svg>
-            <span class="text">Explore</span>
-            <span class="circle"></span>
+            <span className="text">Explore</span>
+            <span className="circle"></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="arr-1"
+              className="arr-1"
               viewBox="0 0 24 24"
             >
               <path

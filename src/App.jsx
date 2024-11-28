@@ -10,6 +10,10 @@ import Services from './pages/services/services.jsx'
 import Classes from "./pages/classes/classes.jsx";
 import Blog from "./pages/blog/blog.jsx";
 import Classes_1 from './pages/classes_2/classes.jsx'
+import Booking from './pages/book/booking.jsx'
+import CelpipGeneralClass from './pages/book/booking_content/CELPIP General Class/booking.jsx'
+import Contact from './pages/contact/contact.jsx'
+
 function App() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -34,6 +38,11 @@ function MainContent() {
         <Route path="/classes" element={<Classes />} />
         <Route path="/classes_1" element={<Classes_1 />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact/>} />
+         {/* This is a Booking Page */}
+         <Route path="/booking" element={<Booking />} />
+         <Route path="/celpip_general_class" element={<CelpipGeneralClass/>} />
+         
       </Routes>
         <Footer/>
     </div>

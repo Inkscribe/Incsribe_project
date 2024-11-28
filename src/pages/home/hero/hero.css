@@ -6,7 +6,35 @@
   .hero_container {
     display: flex;
   }
+  .hero_button {
+    background: none;
+    color: #fff;
+    max-width: 200px;
+    width: 100%;
+    padding: 1rem 0 1rem 0rem;
+    border-radius: 30px;
+    border: 2px solid #1eb2a6;
+    font-family: "Poppins", sans-serif;
+  }
+  .button {
+    gap: 2rem;
+    display: flex;
+    margin-top: 1rem;
+    max-width: 1000px;
+    width: 100%;
+  }
  
+  
+  .primary-btn {
+    background-color: #1eb2a6;
+    color: #fff;
+    max-width: 200px;
+    width: 100%;
+    padding: 1rem 0 1rem 0rem;
+    border-radius: 30px;
+    border: #1eb2a6;
+    font-family: "Poppins", sans-serif;
+  }
   .hero #heading h3 {
     color: #fff;
   }
@@ -36,24 +64,28 @@
   }
   @media screen and (max-width: 430px) {
    
-    .main-container {
-        background-position: center ;
-        height: 150vh !important;
-      }
+   
     
   }
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 576px) {
+    .button.button {
+      display: grid;
+      margin: auto;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .hero_button {
+      width: 200px; 
+    }
+     .primary-btn {
+      width: 100%;
+    }
     .hero_container {
         margin-top: 2rem;
     }
     .hero #heading h3 {
         color: #fff;
       }
-      .main-container {
-        background-position: center ;
-        height: 200vh !important;
-      }
-      
       .hero p {
         font-size: 12px;
         text-align: center;
@@ -63,8 +95,7 @@
        
       }
       .button {
-       
-        margin: auto;
+        margin-top: 2rem;
         display: grid;
       }
       

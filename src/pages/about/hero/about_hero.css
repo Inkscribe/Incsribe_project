@@ -1,8 +1,8 @@
 .hero_section {
     position: relative;
     margin-top: 3rem;
-   z-index: -367;
-   
+    z-index: -1;
+   height: fit-content;
 }
 .hero_box {
     max-width: 1200px;
@@ -10,7 +10,6 @@
     margin: auto;
     display: flex-wrap;
     justify-content: center;
-    
     border-radius: 50px;
     height: auto;
 }
@@ -70,3 +69,48 @@
 .button-2 a {
     color: white;
 }
+
+/* For large devices */
+@media screen and (max-width: 1230px) {
+
+  }
+  
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+
+  }
+  
+  @media screen and (max-width: 576px) {
+    .hero_header-1 {
+       font-size: 2rem;
+    }
+    .hero_box {
+        width: auto;
+    }
+    .hero_hero_hero {
+        width: auto;
+    }
+    .hero_box_container_buuton{
+        display: grid;
+        gap: 2rem;
+        margin: auto;
+        justify-content: center;
+      }
+      .button-1 {
+       width: 400px;
+    }
+    .button-2 {
+        width: 400px;
+    }
+    
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
+    

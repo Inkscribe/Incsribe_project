@@ -31,6 +31,9 @@ header li {
 header ul {
   padding: 20px 50px;
 }
+.nav_link {
+  color: white;
+}
 header ul li a {
   color: #fff;
   font-weight: 500;
@@ -45,9 +48,12 @@ header ul li a:hover {
   color: #fff;
   clip-path: polygon(20% 0%, 100% 0, 100% 100%, 8% 100%);
  border-radius: 30px;
+ place-items: center;
+  align-items: center;
+  display: flex;
 }
 .just_button {
-  margin-top: 0.50rem;
+  
   font-size: 12px;
   cursor: pointer;
 }
@@ -99,7 +105,7 @@ header ul li a:hover {
 }
 
 /*--------header------------*/
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1024px) {
   .start {
     clip-path: polygon(0 0, 80% 0, 90% 100%, 0 100%);
   }
@@ -131,16 +137,29 @@ header ul li a:hover {
     background-color: #313131;
     border-radius: 30px;
   }
+  .toggle{
+    top: 2px;
+    right: 1rem;
+    border: none;
+  }
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
+  .toggle{
+    top: 2px;
+    display: flex;
+    align-items: center;
+    right: 1rem;
+    border: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
  
   .toggle{
-    top: 8px;
+    top: 2px;
+    display: flex;
+    align-items: center;
     right: 1rem;
     border: none;
   }

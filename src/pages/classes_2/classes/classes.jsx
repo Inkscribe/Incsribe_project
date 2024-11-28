@@ -14,21 +14,19 @@ const classes = () => {
             <h1>$25 <span>/Starts</span></h1>
             <p>For Most Buisness that want to optimize their web queries.</p>
             <ul>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>One-on-one lesson <br />  ( $25 CAD ) </li>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Classes with 5 students ( $15 CAD )</li>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Classes with 10+ students ( $8 CAD )</li>
+            <li><i id='fontawesome' className="ri-checkbox-fill"></i>One-on-one lesson </li>
+            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Group Call lesson </li>
             </ul>
             <a href="/">Choose Plan</a>
 
         </div>
         <div className="card ">
             <h3>Intermediate </h3>
-            <h1>$50 <span>/Starts</span></h1>
+            <h1>$30 <span>/Starts</span></h1>
             <p>For Most Buisness that want to optimize their web queries.</p>
             <ul>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>One-on-one lesson <br />  ( $25 CAD ) </li>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Classes with 5 students ( $15 CAD )</li>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Classes with 10+ students ( $8 CAD )</li>
+            <li><i id='fontawesome' className="ri-checkbox-fill"></i>One-on-one lesson </li>
+            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Group Call lesson </li>
             </ul>
             <a href="/">Choose Plan</a>
 
@@ -37,12 +35,11 @@ const classes = () => {
 
         <div className="card">
             <h3>Advanced</h3>
-            <h1>$40 <span>/Starts</span></h1>
+            <h1>$30 <span>/Starts</span></h1>
             <p>For Most Buisness that want to optimize their web queries.</p>
             <ul>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>One-on-one lesson <br />  ( $25 CAD ) </li>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Classes with 5 students ( $15 CAD )</li>
-            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Classes with 10+ students ( $8 CAD )</li>
+            <li><i id='fontawesome' className="ri-checkbox-fill"></i>One-on-one lesson </li>
+            <li><i id='fontawesome' className="ri-checkbox-fill"></i>Group Call lesson </li>
             </ul>
             <a href="/">Choose Plan</a>
 

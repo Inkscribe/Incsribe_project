@@ -25,7 +25,7 @@ const Team = () => {
         <h1 className="team_header" >OUR TEAM</h1>
         <p className="team_paragraph" data-aos="fade-zoomIn">Hi, we're InkScribe Writers, a team of experts helping you succeed. </p>
       
-        <div className="team_container">
+        <div className="team_container container">
         {teamMembers.map((member, index) => (
           <div key={index} className="card">
             <div className="card__border">

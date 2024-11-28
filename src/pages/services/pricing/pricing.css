@@ -1,10 +1,10 @@
 .pricing_section {
-    margin-top: 10rem !important;
+    height: auto;
     width: 100%;
     max-width: 1050px !important;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 10rem auto;
   }
   
   .wrapper {

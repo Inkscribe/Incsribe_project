@@ -76,9 +76,16 @@ const Header = () => {
                 Blog
               </NavLink>
             </li>
+            <li>
+              <NavLink onClick={handleOptionClick}  className="nav_link" to="/contact">
+                Contact
+              </NavLink>
+            </li>
           </ul>
           <div className="start">
-            <div className="button just_button">BOOK A CLASS</div>
+            <div className="just_button"><NavLink className="nav_link" to="/booking">
+                Book a Class
+              </NavLink></div>
           </div>
           <button className="toggle" onClick={toggleMobileMenu}>
             {click ? <i className="fa fa-times"> </i> : <i className="fa fa-bars"></i>}

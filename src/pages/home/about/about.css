@@ -3,7 +3,10 @@
   position: relative;
   margin: auto;
   max-width: 1100px;
-  height: 100vh;
+  height: fit-content;
+  place-items: center;
+  align-items: center;
+  display: grid;
 }
 .about_container {
   width: 100%;
@@ -68,8 +71,51 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1230px) {
+
+  .aboutHome {
+    width: 80%;
+    top: 10rem;
+   }
   
+   .about_box {
+     flex-basis: 100%;
+     padding: 50px;
+     
+   }
+ .box {
+     width: 380px;
+     height: 530px;
+   }
+   .box_box {
+     width: 400px;
+     height: 540px;
+     margin-left: 2rem;
+     margin-top: 2rem;
+   }
+ .about_image {
+     width: 400px;
+     height: 540px;
+    
+   }
+}
+@media screen and (max-width: 992px) {
+
+.box {
+    width: 380px;
+    height: 530px;
+  }
+  .box_box {
+    width: 400px;
+    height: 580px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.about_image {
+    width: 400px;
+    height: auto;
+   
+  }
 }
 
 /* For medium devices */
@@ -77,9 +123,38 @@
   
 }
 @media screen and (max-width: 576px) {
+
+.box {
+    width: 200px;
+    height: 300px;
+ 
+  }
+  .box_box {
+    width: 240px;
+    height: 330px;
+   top: 0.1rem;
+   left: 0.1rem;
+ 
+  }
+.about_image {
+    width: 240px;
+    height: 300px;
+    top: 2rem;
+    left: 2rem;
+  }
+  .about_box {
+    flex-basis: 100%;
+    padding: 1rem;
+    
+  }
+  .aboutHome {
+    height: fit-content;
+  }
+   
+
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
- 
+@media screen and (max-width: 380px) {
+  
 }

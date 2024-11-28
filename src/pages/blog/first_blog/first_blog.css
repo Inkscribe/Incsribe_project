@@ -20,7 +20,7 @@
     margin-top: 1rem;
 }
 .first_blog_box {
-    max-width: 400px;
+    width: auto;
     height: 450px;
     background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
     overflow: hidden;
@@ -45,7 +45,8 @@
 .blog_image_box img {
     width: 400px;
     height: auto;
-    object-fit: contain;
+   object-fit: contain;
+   
    
 }
 .icon_box {
@@ -158,7 +159,12 @@
 }
 /* For large devices */
 @media screen and (max-width: 1230px) {
-
+  .first_blog_container {
+    margin-top: 3rem !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
     
   }
   
@@ -169,11 +175,22 @@
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
-   
+
+    .first_blog_container {
+      margin-top: 3rem !important;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+      place-items: center;
+  }
+
+ 
   }
   
   @media screen and (max-width: 576px) {
-   
+   .first_blog_box {
+    width: 100%;
+   }
     .first_blog_container {
         margin-top: 3rem !important;
         display: grid;

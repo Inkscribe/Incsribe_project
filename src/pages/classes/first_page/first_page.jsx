@@ -7,8 +7,7 @@ const first_page = () => {
     const content = [
         {
           paragraph_1: "One-on-one  $45 CAD ",
-          paragraph_2: "5 Students  $20 CAD ",
-          paragraph_3: "10 + Students $10 CAD ",
+          paragraph_2: "Group Call  $20 CAD ",
           header: 'TOEFL Classes ',
           image: First_photo,
           item_1: 'TOEFL Test Prep',
@@ -16,9 +15,8 @@ const first_page = () => {
           item_3: 'TOEFL Speaking & Reading  Master Class',
         },
         {
-          paragraph_1: "One-on-one  classes  $45 CAD",
-          paragraph_2: "5 Students   $20 CAD",
-          paragraph_3: "10 + Students  $10 CAD",
+          paragraph_1: "One-on-one  $45 CAD ",
+          paragraph_2: "Group Call  $20 CAD ",
           header: 'IELTS Academic & General Classes ',
           image: Second_photo,
           item_1: 'IELTS (Academic/General) ',
@@ -26,14 +24,14 @@ const first_page = () => {
           item_3: 'IELTS Speaking & Reading  Master Class',
         },
         {
-            paragraph_1: "One on one  classes $45 CAD ",
-            paragraph_2: "5 Students $20 CAD ",
-            paragraph_3: "10 + Students $10 CAD ",
+            paragraph_1: "One-on-one  $45 CAD ",
+            paragraph_2: "Group Call  $20 CAD ",
             header: 'CELPIP Classes ',
             image: Third_photo,
             item_1: 'CELPIP General Prep',
             item_2: 'CELPIP Writing Master Class',
             item_3: 'CELPIP Speaking & Reading  Master Class',
+            route: '/celpip_general_class',
         },
       ];
     
@@ -60,20 +58,17 @@ const first_page = () => {
            <h1>{item.header}</h1>
            <div className="bottom_paragraph">
             <div className="bottom">
-            <i class="ri-checkbox-fill"></i><p>{item.paragraph_1}</p>
+            <i className="ri-checkbox-fill"></i><p>{item.paragraph_1}</p>
             </div>
             <div className="bottom">
-            <i class="ri-checkbox-fill"></i><p>{item.paragraph_2}</p>
-            </div>
-            <div className="bottom">
-            <i class="ri-checkbox-fill"></i><p>{item.paragraph_2}</p>
+            <i className="ri-checkbox-fill"></i><p>{item.paragraph_2}</p>
             </div>
            </div>
 
 
            
            <div className="btn-6">
-         <a className="btn-content" href="#" onClick={(e) => e.preventDefault()}>
+         <a className="btn-content" href={item.route} >
           <span className="btn-title">Next</span>
            <span className="icon-arrow">
           <svg

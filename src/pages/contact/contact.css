@@ -1,0 +1,20 @@
+.contact_button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact_image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px
+}
+.contact_a {
+    display: flex;
+    justify-content: center; 
+}

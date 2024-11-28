@@ -171,7 +171,5 @@ footer {
 }
 }
 @media (max-width: 420px) {
-    footer{
-        margin-top: 40rem !important;
-    }
+    
   }

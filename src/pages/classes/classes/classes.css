@@ -4,3 +4,28 @@
     width: 40%;
     margin: auto;
 }
+/* For large devices */
+@media screen and (max-width: 1230px) {
+
+  }
+  
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+ 
+  }
+  
+  @media screen and (max-width: 576px) { 
+    .classes_paragraph {
+        width: 80%;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 390px) {
+   
+  }
+  
