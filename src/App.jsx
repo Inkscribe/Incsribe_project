@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; 
-import  AOS  from "aos";
 import 'aos/dist/aos.css'
 import Home from './pages/home/home.jsx';
 import Navigation from './common/navigation/header/Header';
@@ -23,9 +22,7 @@ import ToeflGeneralClass from './pages/book/booking_content/TOEFL General Class/
 import BackToTopButton from './pages/backToTopButton/BackToTopButton.jsx'
 import PrivacyPage from './pages/privacy @ policy/privacy_page.jsx'
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []); 
+ 
   return (
     <Router>
       <div id="top"></div>   {/* ID for BackToTop */}
@@ -36,6 +33,11 @@ function App() {
 }
 
 function MainContent() {
+  
+  useEffect(() => {
+    import('aos').then((AOS) => AOS.init({ duration: 2000 }));
+  }, []);
+  
   const location = useLocation();  
   const isHomepage = location.pathname === '/';
   return (
