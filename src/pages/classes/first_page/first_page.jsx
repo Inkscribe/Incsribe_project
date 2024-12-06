@@ -22,6 +22,7 @@ const first_page = () => {
           item_1: 'IELTS (Academic/General) ',
           item_2: 'IELTS Writing Master Class',
           item_3: 'IELTS Speaking & Reading  Master Class',
+          route:'/ielts_general_preparation'
         },
         {
             paragraph_1: "One-on-one  $45 CAD ",
@@ -37,7 +38,7 @@ const first_page = () => {
     
   return (
     <>
-    <section className="first_page_section">
+    <section className="first_page_section" id='classes'>
         <div  className="first_page_container container">
         {content.map((item, index) => (
         <div key={index} className="first_page_box">

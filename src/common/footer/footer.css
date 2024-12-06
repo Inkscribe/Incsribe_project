@@ -23,7 +23,7 @@ footer {
     padding: 10px;
 }
 .col:nth-child(2), .col:nth-child(3){
-    flex-basis: 10%;
+    flex-basis: 15%;
 }
 .footer_image {
     margin-top: 1rem;
@@ -45,6 +45,12 @@ footer {
 .col p {
     font-size: 12px;
 }
+.footer_nav {
+    color: white;
+}
+.col a:hover {
+    color: #1eb2a6;
+}
 .footer_email {
     width: fit-content;
     border-bottom: 1px solid white;
@@ -63,12 +69,29 @@ footer {
     color: white;
 }
 .footer_form {
-    padding-bottom: 15px;
+    display: grid;
+    font-family: var(--body-font);
+}
+.footer_form_box {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    font-family: var(--body-font);
+}
+.footer_form_line {
+    padding-bottom: 10px;
+    display: grid;
     border-bottom: 1px solid ;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+}
+.footer_button {
+    font-size: 12px;
+    display: grid;
+    width: 50%;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-family: var(--body-font);
+    background-color: var(--first-color);
+    cursor: pointer;
 }
 .far {
    font-size: 18px; 
@@ -80,13 +103,9 @@ footer {
     color: #ccc;
     border: 0;
     outline: none;
+    font-family: var(--body-font);
 }
-.footer_button {
-    background-color: transparent;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-}
+
 .fas {
     font-size: 16px;
     color: #ccc;
@@ -127,7 +146,6 @@ footer {
     color: #1eb2a6 ;
 }
 .footer_bottom {
-    
     font-size: 15px;
 }
 .underline {
@@ -173,3 +191,6 @@ footer {
 @media (max-width: 420px) {
     
   }
+
+
+  

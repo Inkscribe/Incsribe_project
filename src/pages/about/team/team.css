@@ -6,7 +6,7 @@
     margin-inline: 1.5rem;
     display: grid;
     place-items: center;
-    margin-top: 30rem;
+    margin-top: 35rem;
 }
 .team_container {
     margin-top: 4rem !important;
@@ -17,7 +17,7 @@
     
   }
   .team_content {
-    width: 100%;
+    width: 90%;
     text-align: center;
     color:var(--first-color);
   }
@@ -51,14 +51,14 @@
    
     width: 150px;
     height: 150px;
-    border: 2px solid var(--first-color);
+
     border-radius: 50%;
     display: grid;
     place-items: center;
     margin: 0 auto 0.75rem ;
   }
   .card__name {
-    color: var(--first-color);
+    color: white;
     font-size: var(--h3-font-size);
     font-weight: 500;
   }
@@ -71,11 +71,11 @@
   
   .card__social {
     width: 200px;
-    background-color: var(--first-color);
+    background-color: rgb(197, 197, 197);
     padding: 0.75rem;
     border-radius: 3rem;
     text-align: initial;
-    box-shadow: 0 8px 24px hsla(214, 75%, 56%, 0.3);
+    background-color: var(--first-color);
     position: absolute;
     left: 0;
     right: 0;
@@ -206,7 +206,9 @@
         width: 90%;
         
       }
-   
+      .team_section {
+        margin-top: 20rem;
+      }
   }
   
   /* For small devices */

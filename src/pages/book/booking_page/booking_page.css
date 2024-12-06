@@ -90,6 +90,33 @@
   .booking_button_a:hover i {
     transform: translateX(5px); 
   }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-btn {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 100%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-btn:hover {
+    background-color: var(--first-color); 
+    color: white;
+  }
+  
+  .page-btn.active {
+    background-color: var(--first-color); 
+    color: white;
+  }
+  
+  
   /* For large devices */
 @media screen and (max-width: 1230px) {
     .booking_page_container {

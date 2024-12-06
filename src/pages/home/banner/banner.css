@@ -36,6 +36,8 @@
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 30px;
     font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
 }
 .banner_newsletter {
     justify-content: center;

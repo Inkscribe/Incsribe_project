@@ -6,7 +6,7 @@ import Blog_3 from './images/b6.webp'
 const first_blog = () => {
   return (
     <>
-    <section className="first_blog_section" data-aos="fade-zoomIn">
+    <section className="first_blog_section" data-aos="fade-zoomIn" id='blog'>
         <h1>Info Blog</h1>
         <p className='blog_paragraph'> Join us as we explore the art and craft of writing, one post at a time.</p>
         <div className="first_blog_container container">

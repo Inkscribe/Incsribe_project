@@ -4,7 +4,7 @@ import Image_1 from './assets/avif/photo.avif'
 const about_us = () => {
   return (
    <>
-   <section className='aboutHome'>
+   <section className='aboutHome' id='aboutHome'>
         <div className='about_container '>
            <div className="about_box" data-aos="fade-right">
             <div className="box"></div>
@@ -14,7 +14,7 @@ const about_us = () => {
             <div className="about_box" data-aos="fade-left">
               <div className="about_content">
               <h1>Learn About Us</h1>
-              <h2 className="about_header-2">25 YEARS OF EXPERIENCE</h2>
+              <h2 className="about_header-2">10 + YEARS OF <br /> EXPERIENCE</h2>
               <p>As passionate educators and writers, we have over 10 years of experience teaching English to students of 
                 all levels and abilities. Our expertise has helped students gain admission to schools, and we have assisted
                 professionals in writing research papers and translating their knowledge in the workplace.</p>

@@ -9,8 +9,8 @@ const services_extension = () => {
     <section  className='services_extension'data-aos="fade-zoomIn">
         <div className='services_box'>
            <h3 className='h-3_title'>How it Works ?</h3>
-           <h2 className='services_paragraph'>Top–notch designs, <br />
-            delivered at your doorstep.</h2>
+           <h2 className='services_paragraph'>Our experienced team of writers and tutors <br /> is here to help you succeed. 
+            </h2>
         </div>
 
         <section className='section_images'>

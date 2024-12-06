@@ -1,5 +1,6 @@
 import React from "react"
-
+import { HiViewGrid } from "react-icons/hi"
+import { BiShoppingBag } from "react-icons/bi"
 const Head = () => {
   return (
     <>
@@ -11,10 +12,10 @@ const Head = () => {
           </div>
 
           <div className='social'>
-            <i className='fab fa-facebook-f icon'></i>
-            <i className='fab fa-instagram icon'></i>
-            <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-youtube icon'></i>
+            <HiViewGrid size={25}></HiViewGrid>
+            Category
+            <BiShoppingBag size={25}></BiShoppingBag>
+            Log In
           </div>
         </div>
       </section>

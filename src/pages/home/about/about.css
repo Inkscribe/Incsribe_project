@@ -24,6 +24,7 @@
   flex-basis: 50%;
   padding: 10px;
 }
+
 .about_image {
   width: 350px;
   height: 450px;
@@ -51,15 +52,17 @@
 
 .about_content h1 {
   color: #1eb2a6;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 900;
 }
 .about_content p {
+  text-align: left;
+  width: fit-content;
   font-size: 15px;
   margin-top: 1rem;
 }
 .about_header-2 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   color: white;
 }
 .about_content {
@@ -143,7 +146,7 @@
     left: 2rem;
   }
   .about_box {
-    flex-basis: 100%;
+    flex-basis: 50%;
     padding: 1rem;
     
   }

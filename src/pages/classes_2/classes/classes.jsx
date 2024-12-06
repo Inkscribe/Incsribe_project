@@ -4,8 +4,8 @@ import './classes.css'
 const classes = () => {
   return (
     <>
-    <section className="pricing_section">
-     <h3 className='h-3_title'data-aos="fade-zoomIn" >Pricing Plan</h3>
+    <section className="pricing_section" id='classes_2'>
+     <h3 className='h-3_title'data-aos="fade-zoomIn" >Classes Plan</h3>
      <h2 className='services_paragraph'data-aos="fade-zoomIn">Find the best way for you 
     </h2>
       <div className="wrapper" data-aos="fade-zoomIn">
